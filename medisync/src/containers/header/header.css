@@ -1,0 +1,110 @@
+.medisync__header {
+    display: flex;
+    justify-content: center;
+    background: #F6F6F6;
+    padding: 36px 70px;
+    font-family: var(--font-family);
+}
+
+.medisync__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #500680;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0 70px;
+}
+
+.medisync__header-content h1 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.medisync__header-content p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 18px 105px 0 0;    
+}
+
+.medisync__header-content__demo button {
+    padding: 17px 55px;
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #500680;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    
+}
+
+.medisync__header-image {
+    min-width: 50%;
+}
+
+.medisync__header-image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .medisync__header {
+        flex-direction: column;
+    }
+
+    .medisync__header-content {        
+        border-radius: 10px 10px 0px 0px;
+        padding: 35px 70px;
+    }
+    
+    .medisync__header-content p {
+        margin: 0;   
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .medisync__header {
+        padding: 2rem;
+    }
+    .medisync__header h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .medisync__header-content {
+        padding: 35px 50px;
+    }
+
+    .medisync__header-content__demo button {
+        font-size: 18px;
+
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .medisync__header h1 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .medisync__header-content p {
+        font-size: 18px;
+        line-height: 24px;   
+    }
+
+    .medisync__header-content__demo button {
+        font-size: 14px;
+        padding: 12px 35px;
+
+    }
+}

@@ -1,0 +1,70 @@
+.medisync__feature {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 70px;
+    padding: 21px 0;
+    font-family: var(--font-family);
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 16px 32px rgba(190, 190, 190, 0.2);
+}
+
+.medisync__feature-privacy {
+    display: flex;
+    align-items: center;
+}
+
+.medisync__feature-text h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #460570;
+}
+
+.medisync__feature-text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #656462;
+}
+
+@media screen and (max-width: 1050px) {
+    .medisync__feature {
+        flex-direction: column;
+        padding-left: 4rem;
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .medisync__feature {
+        margin: 0 2rem;
+        padding: 2rem;
+    }
+
+    .medisync__feature-text h1 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .medisync__feature-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .medisync__feature {
+        padding-left: 2rem;
+        margin: 2rem;
+    }
+
+    .medisync__feature-text h1 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .medisync__feature-text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}

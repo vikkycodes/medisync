@@ -1,0 +1,117 @@
+body {
+    background: #f6f6f6;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.medisync__feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 4rem 10rem;
+    font-family: var(--font-family);
+}
+
+.medisync__feedback h1 {
+    padding: 2rem 0 4rem 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1B1A1A;
+}
+
+.medisync__feedback_client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #DADADA;
+    margin: 0 8rem;
+    box-shadow: 0px 18.1889px 36.3778px rgba(190, 190, 190, 0.2);
+}
+
+.medisync__feedback_client p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #1B1A1A;
+    padding: 5rem 4rem 3rem 4rem;
+}
+
+.medisync__feedback_client-Name {
+    padding-bottom: 1rem;
+}
+
+.medisync__feedback_client-Name h1 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 1rem 0 1rem 0;
+}
+
+.medisync__feedback_client-Name p {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #460570;
+    padding: 0 0 4rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .medisync__feedback_client {
+        margin: 0 4rem;
+    }
+
+    .medisync__feedback {
+        padding: 4rem 6rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .medisync__feedback_client {
+        margin: 0 0.5rem;
+    }
+
+    .medisync__feedback {
+        padding: 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .medisync__feedback {
+        padding: 4rem 2rem;
+    }
+
+    .medisync__feedback_client h1 {
+        font-size: 24px;
+    }
+
+    .medisync__feedback_client p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        text-align: center;
+        color: #1B1A1A;
+        padding: 4rem 1rem 2rem 1rem;
+    }
+
+    .medisync__feedback_client-Name h1 {
+        font-size: 18px;
+        padding: 1rem 0 1rem 0;
+    }
+    
+    .medisync__feedback_client-Name p {
+        font-size: 18px;
+        padding: 0 0 0 0;
+    }
+    
+}

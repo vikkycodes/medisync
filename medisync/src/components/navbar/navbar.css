@@ -1,0 +1,145 @@
+.medisync__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 70px;
+    background: #f6f6f6;
+    font-family: var(--font-family);
+    
+}
+
+.medisync__navbar-container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medisync__navbar-left {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 0px;
+    align-items: center;
+}
+
+.medisync__navbar-left img {
+    position: relative;
+    width: 118.87px;
+    height: 28.07px;
+    padding-right: 180px;
+}
+
+.medisync__navbar-links {
+    display: flex;
+    justify-content: flex;
+}
+
+.medisync__navbar-links p {
+    color: #1B1A1A;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 56px;
+    cursor: pointer;
+}
+
+.medisync__navbar-menu_container p {
+    color: #1B1A1A;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 20px;
+
+    cursor: pointer;
+}
+
+.medisync__navbar-right button,
+.medisync__navbar-menu_container-links-wallet button {
+    padding: 10px 55px;
+    color: #fff;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    background: #460570;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.medisync__navbar-menu {
+    position: relative;
+    display: none;
+}
+
+.medisync__navbar-menu svg {
+    cursor: pointer;
+}
+
+.medisync__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #fff;
+    padding: 2rem;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2)
+}
+
+.medisync__navbar-menu_container-links button {
+    padding: 7px 10px;
+    font-size: 15px;
+}
+
+.medisync__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+.medisync__navbar-menu_container-links-wallet {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .medisync__navbar-links {
+        display: none;
+    }
+
+    .medisync__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .medisync__navbar {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .medisync__navbar {
+        padding: 2rem;
+    }
+
+    .medisync__navbar-right {
+        display: none;
+    }
+
+    .medisync__navbar-menu_container {
+        top: 40px;
+    }
+
+    .medisync__navbar-menu_container-links-wallet {
+        display: block;
+    }
+}

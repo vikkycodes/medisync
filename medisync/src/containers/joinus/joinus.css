@@ -1,0 +1,92 @@
+body {
+    background: #f6f6f6;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.medisync__joinus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0;
+    font-family: var(--font-family);
+}
+
+.medisync__joinus h2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #460570;
+}
+
+.medisync__joinus h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #252B42;
+    padding: 1rem;
+}
+
+.medisync__joinus p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #656462;
+    margin: 1rem;
+}
+
+.medisync__joinus_input {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+
+    display: flex;
+    padding: 0 12rem;
+}
+
+.medisync__joinus_input input {
+    min-height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #CBCAC8;
+    border-radius: 5px 0 0 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #656462;
+    padding-left: 1rem;
+}
+
+.medisync__joinus_input button {
+    min-height: 50px;
+    background: #460570;
+    border: 1px solid #CBCAC8;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .medisync__joinus_input {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .medisync__joinus_input {
+        padding: 0 2rem;
+    }
+}
